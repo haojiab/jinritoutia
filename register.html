@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <title>注册</title>
+</head>
+<body>
+
+<!--导航条-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!--logo-->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#">热闻·今日头条 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">国内</a></li>
+                <li><a href="#">国际</a></li>
+                <li><a href="#">社会</a></li>
+                <li><a href="#">数读</a></li>
+                <li><a href="#">军事</a></li>
+                <li><a href="#">政务</a></li>
+                <li><a href="#">工艺</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="login.html">登录<span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#">注册</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+
+    <!--表单-->
+    <form action="#">
+        <h1>注册 <small>已有账号? <a href="login.html">登录</a></small></h1>
+        <div class="form-group">
+            <label for="exampleInputEmail1">手机号</label>
+            <input type="email" class="form-control" id="exampleInputEmail1">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputMassage">验证码</label>
+            <div class="input-group">
+                <input id="exampleInputMassage" type="text" class="form-control">
+                <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">发送验证码</button>
+                </span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <p>注册即代表您同意 <a href="#">今日头条服务条款</a></p>
+        <button type="submit" class="btn btn-danger btn-block">注册</button>
+    </form>
+    <div class="footer" >
+        © 2017 今日头条 中国互联网举报中心京ICP证1401号京IPC备125439号-3京公网安备
+    </div>
+</div>
+</body>
+</html>
